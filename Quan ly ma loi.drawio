@@ -147,6 +147,9 @@
         <mxCell id="mnCTAhDpj6cvn3uaswME-56" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnCTAhDpj6cvn3uaswME-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" target="mnCTAhDpj6cvn3uaswME-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="aCOi2dIxkLeS52MmLn5v-2" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnCTAhDpj6cvn3uaswME-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aCOi2dIxkLeS52MmLn5v-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mnCTAhDpj6cvn3uaswME-48" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;span&gt;&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;Kết luận&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="80" x="1790" y="880" as="geometry" />
         </mxCell>
@@ -194,6 +197,9 @@
         </mxCell>
         <mxCell id="mnCTAhDpj6cvn3uaswME-73" parent="WIyWlLk6GJQsqaUBKTNV-1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;gradientColor=none;" value="Lỗi khi gọi đối tác:&lt;div&gt;Bắt buộc phải mapping theo errorCode đã có trong DB hoặc quy về 3 loại lỗi sau&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SYSTEM.TIMEOUT&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SYSTEM.DEPENDENCY_TIMEOUT&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SYSTEM&lt;/span&gt;.UNKNOW_ERROR&lt;/div&gt;&lt;div&gt;detailErrorCode: mã thể hiện đối tác nào&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;PARTNER.ERROR&lt;/div&gt;&lt;div&gt;&lt;div&gt;Chi tiết :có thẻ mapping lại hoặc là mã lỗi do chính đối tác trả về // xem xét thêm&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="200" width="250" x="2870" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="aCOi2dIxkLeS52MmLn5v-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;gradientColor=none;" value="Cách monitor:&lt;div&gt;Monitor mã lỗi theo errorCode và source&lt;/div&gt;&lt;div&gt;Trong trường hợp SYSTEM.DEPENDENCY_TIMEOUT thì cần theo dõi thêm detailErrorCode mô tả hệ thống đang không gọi đến được&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="310" x="2830" y="990" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
