@@ -183,6 +183,14 @@
         <mxCell id="mnCTAhDpj6cvn3uaswME-74" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnCTAhDpj6cvn3uaswME-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mnCTAhDpj6cvn3uaswME-73" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="aCOi2dIxkLeS52MmLn5v-5" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mnCTAhDpj6cvn3uaswME-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aCOi2dIxkLeS52MmLn5v-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3090" y="1450" />
+              <mxPoint x="3090" y="1450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mnCTAhDpj6cvn3uaswME-59" parent="WIyWlLk6GJQsqaUBKTNV-1" style="text;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;span&gt;&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;Nguyên tắc thêm mã lỗi:&lt;/div&gt;&lt;div&gt;+ Lỗi ấy có cùng user meaning , đối với khách hàng có coi như là 1 với 1 lỗi đã có không? nếu có thì thêm errorcode, nếu lỗi ấy xuất hiện từ 2 hệ thống trở lên : type COMMON , nếu không type theo CHANNEL , nếu đã có trước đó mà thuộc 1 CHANNEL rồi ?? chuyển lên COMMON ??&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Business error → decision completed&lt;/div&gt;&lt;div&gt;System error&amp;nbsp; &amp;nbsp;→ decision impossible&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;Error code should describe the REAL reason the operation failed, not the business intention.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="220" width="350" x="1990" y="1340" as="geometry" />
         </mxCell>
@@ -200,6 +208,9 @@
         </mxCell>
         <mxCell id="aCOi2dIxkLeS52MmLn5v-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;gradientColor=none;" value="Cách monitor:&lt;div&gt;Monitor mã lỗi theo errorCode và source&lt;/div&gt;&lt;div&gt;Trong trường hợp SYSTEM.DEPENDENCY_TIMEOUT thì cần theo dõi thêm detailErrorCode mô tả hệ thống đang không gọi đến được&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="160" width="310" x="2830" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="aCOi2dIxkLeS52MmLn5v-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=none;gradientColor=none;" value="Các khó khăn khi quản lý theo cách này:&lt;div&gt;+ Tất cả các đầu gọi sẽ phải case trường hợp xử lý cho tất cả errorCode ? chỉ cần gom nhóm lại và xử lý với các errorCode cần thiết trong trường hợp đặc biệt còn đa số sẽ FW thẳng lỗi ra ngoài nên không quan tâm&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ Trường hợp A-&amp;gt;B-&amp;gt;C C trả ra errorCode, B fw cho A&lt;/div&gt;&lt;div&gt;A có nhu cầu chi tiết lỗi hơn thì detailCode sẽ set ở đâu? set ở C vì C là nơi thực sự xác định tại sao req đó gặp lỗi -&amp;gt; cần bảo C bổ sung thêm mã lỗi&lt;/div&gt;" vertex="1">
+          <mxGeometry height="350" width="340" x="3230" y="1420" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
