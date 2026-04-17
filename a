@@ -1,0 +1,20 @@
+Trong trường hợp Ngân hàng thực hiện số hóa hoàn toàn quy trình cho vay khách hàng cá nhân, bên cạnh những lợi ích về tốc độ xử lý và nâng cao trải nghiệm khách hàng, vẫn tồn tại một số yếu tố rủi ro có thể phát sinh như sau:
+
+Thứ nhất, rủi ro tín dụng do hạn chế trong đánh giá khách hàng
+Khi quy trình cho vay được tự động hóa hoàn toàn, việc thẩm định khách hàng chủ yếu dựa trên dữ liệu lịch sử và mô hình chấm điểm tín dụng. Tuy nhiên, dữ liệu này có thể chưa phản ánh đầy đủ năng lực tài chính hoặc mục đích vay vốn thực tế của khách hàng, đặc biệt với nhóm khách hàng mới hoặc khách hàng chưa có lịch sử tín dụng rõ ràng. Điều này có thể làm gia tăng nguy cơ cấp tín dụng cho các khách hàng có mức độ rủi ro cao.
+
+Thứ hai, rủi ro gian lận và giả mạo thông tin
+Trong môi trường số, khách hàng thực hiện toàn bộ quy trình từ đăng ký, xác thực đến ký hợp đồng trực tuyến. Nếu hệ thống eKYC hoặc xác thực sinh trắc học chưa đủ mạnh, có thể phát sinh các hành vi giả mạo danh tính, sử dụng giấy tờ giả hoặc lợi dụng lỗ hổng hệ thống để vay vốn trái phép.
+
+Thứ ba, rủi ro công nghệ và gián đoạn hệ thống
+Việc phụ thuộc hoàn toàn vào nền tảng số khiến ngân hàng đối mặt với rủi ro khi hệ thống xảy ra lỗi kỹ thuật, tấn công mạng hoặc quá tải giao dịch. Điều này có thể làm gián đoạn dịch vụ, ảnh hưởng đến trải nghiệm khách hàng và uy tín của ngân hàng.
+
+Thứ tư, rủi ro bảo mật và an toàn dữ liệu
+Quy trình số hóa toàn trình đòi hỏi lưu trữ và xử lý khối lượng lớn dữ liệu khách hàng. Nếu hệ thống bảo mật không được đầu tư đầy đủ, nguy cơ rò rỉ thông tin cá nhân hoặc dữ liệu tài chính có thể xảy ra, gây thiệt hại cho khách hàng và ngân hàng.
+
+Thứ năm, rủi ro pháp lý và tuân thủ
+Các quy định pháp lý về cho vay số, chữ ký điện tử, xác thực khách hàng vẫn đang được hoàn thiện. Nếu ngân hàng triển khai số hóa toàn trình khi khung pháp lý chưa đồng bộ, có thể phát sinh rủi ro tranh chấp pháp lý hoặc vi phạm quy định quản lý của Ngân hàng Nhà nước.
+
+Ngoài ra, theo thực trạng phân tích trong Chương 2 của đề án, hiện nay một số quy trình cho vay số tại ngân hàng vẫn chưa hoàn toàn tự động nhằm đảm bảo kiểm soát rủi ro. Điều này cho thấy việc số hóa toàn trình cần được thực hiện theo lộ trình, kết hợp giữa tự động hóa và kiểm soát thủ công đối với các khoản vay có mức độ rủi ro cao.
+
+Tóm lại, số hóa toàn trình quy trình cho vay là xu hướng tất yếu, nhưng ngân hàng cần đồng thời tăng cường hệ thống chấm điểm tín dụng, nâng cấp công nghệ bảo mật, kiểm soát gian lận và hoàn thiện quy trình quản trị rủi ro để đảm bảo phát triển bền vững.
